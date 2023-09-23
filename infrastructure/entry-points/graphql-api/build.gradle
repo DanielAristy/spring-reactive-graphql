@@ -1,0 +1,7 @@
+dependencies {
+    implementation project(':model')
+    implementation project(':usecase')
+    implementation 'org.springframework.boot:spring-boot-starter-webflux'
+    implementation 'com.graphql-java-kickstart:graphql-spring-boot-starter:15.0.0'
+    implementation 'org.springframework.experimental:graphql-spring-boot-starter:1.0.0-M4'
+}
